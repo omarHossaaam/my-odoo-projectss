@@ -1,0 +1,18 @@
+<odoo>
+    <menuitem id="hospital_root_menu"
+              name="Hospital"
+              sequence="1"
+              web_icon="AClinic\static\description\OIP (10).jpeg"/>
+
+    <menuitem id="hospital_patients_menu"
+              name="Patients"
+              parent="hospital_root_menu"
+              action="hospital_patient_action"/>
+
+    <menuitem id="hospital_doctors_menu"
+              name="Doctors"
+              parent="hospital_root_menu"
+              action="action_hospital_doctor"/>
+
+</odoo>
+
